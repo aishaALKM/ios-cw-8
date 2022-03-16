@@ -40,7 +40,7 @@ var nubeeer2: Int = 4
 
 var doubleNumber: Double = 2.5
 
-var sum = Double(stringNumber) ?? 8 + Double(nubeeer2) + (doubleNumber)
+var sum = Double(stringNumber) ?? +Double(nubeeer2) + (doubleNumber)
 
 
 
